@@ -1,0 +1,295 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+img {
+    border-radius: 8px;
+    display: block;
+}
+
+.pimg1, .pimg2, .pimg3 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pimg1 {
+    background-image: url("../images/lightbulb.jpg");
+    min-height: 100%;
+}
+
+.pimg2 {
+    background-image: url("../images/abstract.jpg");
+    min-height: 400px;
+}
+
+.pimg3 {
+    background-image: url("../images/lightbulb.jpg");
+    height: 500px;
+}
+
+
+
+
+.btn {
+    color:#d8a900;
+    background-color: #000000;
+    margin:10px;
+}
+
+.section {
+    text-align: center;
+}
+
+.section-light {
+    background-color: #d8a900;
+    opacity: .85;
+}
+
+.section-dark {
+    background-color: #d8a900;
+}  
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: #d8a900;
+    padding: 20px;
+    font-family: 'Bowlby One SC', cursive;
+}
+
+.introText {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    font-size: 40px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: #d8a900;
+    margin-left:20%;
+    font-family: 'Bowlby One SC', cursive;
+}
+
+.outroText{
+    font-size: 40px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: #d8a900;
+    font-family: 'Bowlby One SC', cursive;
+    text-align:center;
+
+}
+
+
+
+.socialLink { 
+    width:80px;
+    height:80px;
+    padding:10px;
+} 
+
+
+
+@media screen and (max-width: 568px) {
+    .pimg1 .pimg2 .pimg3{
+        background-attachment: scroll;
+    }
+}
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+
+ 
+  .pad-section img {
+    width: 100%;
+  }
+
+  .text-vcenter {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .text-vcenter h1 {
+    font-size: 4.5em;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+  }
+
+  #home {
+    background: url(../images/home.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  #portfolio.container {
+    width: 100%;
+}
+
+#portfolio {
+    background-color: #d8a900;
+   text-align:center;
+  }
+
+#about.container {
+     width: 100%;
+    background-color: #d8a900;
+}
+
+#about {
+    padding:20px;
+}
+
+#headshot {
+    width:45%;
+    height:45%;
+    margin:auto;
+}
+
+.card-img-top {
+    width: 250px;
+    height: 175px;
+}
+
+.card-text {
+    margin-top:5px;
+    color:#000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-title {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 50px;
+    color:#000000;
+}
+
+#articles.container {
+    width: 100%;
+    background-color: #d8a900;
+}
+
+div.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 18rem;
+    margin: 0 auto; 
+    float: none; 
+    margin-bottom: 10px; 
+    margin-top:10px;
+} 
+
+h2.contentTitle {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+}
+
+#asteroidListDiv {
+    padding: 0px 30px;
+}
+
+#asteroidForm {
+      padding: 0px 30px;
+
+*{
+    box-sizing: border-box;
+}
+
+.container#contact {
+    background-color: #d8a900;
+    width: 100%;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.company-info ul {
+    list-style: none; 
+    padding: 0;
+}
+
+#brand {
+    text-align: center;
+}
+
+#brand span {
+    color: black;
+}
+
+.wrapper{
+    box-shadow: 0 0 20px 0;
+}
+
+.wrapper > * {
+    padding: 1em;
+}
+
+
+.company-info h3, .company-info ul{
+    text-align: center;
+    margin 0 0 1rem 0;
+}
+
+
+@media(min-width: 700px){
+    .wrapper{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    
+    .wrapper > *{
+        padding: 2em;
+    }
+
+    .company-info h3, .company-info ul, .brand{
+        text-align: left;
+    }
+}
+
+ .slider::-webkit-slider-thumb { 
+    -webkit-appearance: none;
+    appearance: none;
+    width: 23px;
+    height: 24px;
+    border: 0;
+    background-image: url("../images/rocket.png");
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 23px;
+    height: 25px;
+    border: 0;
+    background-image: url("../images/rocket.png");
+    cursor: pointer;
+} 
+
+.articleSection- {
+    width: 300px;
+}
+
